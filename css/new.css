@@ -1,0 +1,84 @@
+@font-face {
+  font-family: 'myfont';
+  src: url('../font/DKSushiBar.eot'); /* IE9 Compat Modes */
+  src: url('../font/DKSushiBar.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../font/DKSushiBar.woff2') format('woff2'), /* Modern Browsers */
+    url('../font/DKSushiBar.woff') format('woff'), /* Modern Browsers */
+    url('../font/DKSushiBar.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../font/DKSushiBar.svg') format('svg'); /* Legacy iOS */  font-weight: normal;
+  font-style: normal;
+}
+
+/* font converted using font-converter.net. thank you! */
+@font-face {
+  font-family: 'myfont1';
+  src: url('../font/FiveBoroughsHandwriting.eot'); /* IE9 Compat Modes */
+  src: url('../font/FiveBoroughsHandwriting.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../font/FiveBoroughsHandwriting.woff2') format('woff2'), /* Modern Browsers */
+    url('../font/FiveBoroughsHandwriting.woff') format('woff'), /* Modern Browsers */
+    url('../font/FiveBoroughsHandwriting.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../font/FiveBoroughsHandwriting.svg') format('svg'); /* Legacy iOS */  font-weight: normal;
+  font-style: normal;
+}
+
+#logo img{
+	width: 300px;
+	margin-right: -50px;
+}
+
+.social{
+	padding: 5px;
+}
+
+.fa-facebook,
+.fa-twitter,
+.fa-youtube{
+	color: white;
+	-o-transition:.2s;
+    -ms-transition:.2s;
+    -moz-transition:.2s;
+    -webkit-transition:.2s;
+    /* ...and now for the proper property */
+    transition:.2s;
+}
+
+.fa-facebook:hover{
+	color: #3b5998;
+}
+
+.fa-twitter:hover{
+	color: #4099FF;
+}
+
+.fa-youtube:hover{
+	color: #c4302b;
+}
+
+.count_section{
+	background-color: #333333;
+}
+
+.date{
+	height: 250px;
+}
+
+.save{
+	font-family: 'myfont';
+	color: #e74c3c;
+}
+
+.date1{
+	font-family: 'myfont1'
+}
+
+
+@media only screen and (max-width: 700px){
+	#logo img{
+		width: 150px;
+		margin-right: 0px;
+	}
+
+	.count_section{
+		display: none;
+	}
+}
