@@ -185,7 +185,7 @@ hr { margin:20px 0 30px 0;border:0;height:0;border-top:1px solid #ddd;}
 .numCounter2 > b.d9:before { margin-top: -630px; }
 
 
-#preloader { position: fixed; top:0; left:0; right:0; bottom:0; background: url(../images/1.jpg) no-repeat; background-size: cover; z-index:999; }
+#preloader { position: fixed; top:0; left:0; right:0; bottom:0; background-color:#222; z-index:999; }
 #preloader #status { width:120px; height:120px; position:absolute; left:50%; top:50%; background-repeat:no-repeat; background-image:url('../images/G-white.png'); background-position:center center; background-size:66px 50px; margin:-60px 0 0 -60px; }
 #preloader .circle { margin:0; padding:0; width: 120px; height: 120px; border-radius: 120px; -webkit-box-sizing: border-box; border: solid 2px rgba(255, 255, 255, 0.0); border-top-color: #ccc; border-right-color: #ccc; -webkit-animation: spin 1s infinite linear; animation: spin 1s infinite linear; }
 @-moz-keyframes spin {	100% { -webkit-transform: rotate(360deg); }	} 
